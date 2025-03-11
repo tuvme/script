@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+#counter {
+  margin-left: 20px;
+  font-size: 5em;
+  font-weight: bold;
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+  transition: transform 0.2s ease-in-out;
+}
+
+#counter.updating {
+  transform: scale(1.2);
+}
+
+/* Fonts */
+@font-face {
+  font-family: Nunitosemi;
+  src: url('Nunito-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: pagetext;
+  src: url('Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: linksfont;
+  src: url('Poppins-Medium.ttf');
+}
+
+a {
+  font-family: 'linksfont';
+}
+
+h1 {
+  font-family: 'Nunitosemi', Arial, Helvetica, sans-serif;
+}
+
+p, h2, h3, h4, h5, h6 {
+  font-family: 'pagetext', Arial, Helvetica, sans-serif;
+}
+
+/* Counter Box */
+#counterbox {
+  background: linear-gradient(to bottom, #141e30, #243b55);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #243b55;
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'linksfont';
+  font-size: 1.2em;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
