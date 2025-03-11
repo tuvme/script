@@ -50,13 +50,13 @@ p, h2, h3, h4, h5, h6 {
   font-family: 'pagetext', Arial, Helvetica, sans-serif;
 }
 
-/* Counter Box */
 #counterbox {
   background: linear-gradient(to bottom, #141e30, #243b55);
   color: #ffffff;
-  text-align: center;
+  text-align: left; /* Change this to align content to the left */
   padding: 20px;
 }
+
 
 /* Navigation Bar */
 nav {
